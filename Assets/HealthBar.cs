@@ -51,7 +51,7 @@ public class HealthBar : MonoBehaviour
         }
         FinalValue = 1.0f - (Counter / MaxTime);
         ImgHealthBar.fillAmount = FinalValue;
-        CounterText.text = FinalValue.ToString("0");
+        CounterText.text = FinalValue.ToString("0.00");
     }
 
 
